@@ -13,7 +13,7 @@
       <!-- Konten untuk Todos -->
       <div v-if="selectedTab === 'todos'">
         <h1>Manajemen Proyek</h1>
-        <input type="text" v-model="newActivity" placeholder="Tambah kegiatan baru">
+        <input type="text" v-model="newActivity" placeholder="Tambah Proyek baru">
         <input type="date" v-model="newDate"> 
         <input type="time" v-model="newTime">
         <button @click="addActivity">Masukkan</button> <br>
